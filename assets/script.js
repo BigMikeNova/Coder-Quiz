@@ -101,9 +101,15 @@ function checkAnswer(event) {
 
     if (questions[questionCount].correctAnswer === event.target.value) {
         p.textContent = "Correct!";
+        function myPlay() {
+            var a = document.getElementById('correct');
+            a.play();
     } else if (questions[questionCount].correctAnswer !== event.target.value) {
         secondsLeft = secondsLeft - 10;
         p.textContent = "Wrong!";
+        function myPlay() {
+            var b = document.getElementById('incorrect');
+            b.play();
     }
 
     if (questionCount < questions.length) {
