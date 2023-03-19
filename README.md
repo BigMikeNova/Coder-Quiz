@@ -1,5 +1,12 @@
 # 04 Web APIs: Code Quiz
 
+Quiz Link: https://bigmikenova.github.io/Coder-Quiz/
+
+![image](https://user-images.githubusercontent.com/125073452/226207828-142dafde-50fe-4026-adf2-0bb9a04c1b34.png)
+
+
+Site Image
+
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
