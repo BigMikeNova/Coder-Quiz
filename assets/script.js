@@ -91,9 +91,9 @@ function setQuestion(id) {
 function checkAnswer(event) {
     event.preventDefault();
 
-    yaynayEl.style.display = "block";
+    yesnoEl.style.display = "block";
     let p = document.createElement("p");
-    yaynayEl.appendChild(p);
+    yesnoEl.appendChild(p);
 
     setTimeout(function () {
         p.style.display = 'none';
